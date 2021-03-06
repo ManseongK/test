@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <script language="javascript">
+        document.oncontextmenu = function(){return false;}
+        </script>
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>제목 없음 1</title>
+
+<script>
+
+function pasteboard(){
+
+textRange = document.body.createTextRange()
+textRange.moveToElementText(ITEM)
+textRange.execCommand("paste")
+
+}
+
+function login_page() {
+
+if (ITEM.value =="650") { 
+window.clipboardData.clearData("Text");
+location="httsp://https://manseongk.github.io/ai1" 
+} else {
+
+}
+
+}
+
+</script>
+<style type="text/css">
+.auto-style1 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: medium;
+}
+</style>
+</head>
+
+<body style=background-color:black; oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+
+<button onclick="pasteboard(); login_page();ITEM.value='';" style="width: 83px; height: 83px" class="auto-style1">
+ITEM1</button>
+<br />
+<br />
+<br />
+<br />
+<textarea id="ITEM" cols="20" name="S1" rows="1" style="width: 77px"></textarea>
+
+</body>
+
+</html>
